@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  margin: 0 auto;
+ 
+  max-width: 80%;
+  padding: 0rem;
+ 
+}
+
+ 
+nav {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom:0.2rem;
+  align-items: center;
+ 
+}
+nav a {
+  padding: 0.5rem;
+  color:rgb(124, 165, 19);
+  text-decoration:none;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menuitem a:hover, .dropdown:hover .dropbtn {
+  color: rgb(163, 179, 179);
+}
+
+
+/*
+.menuitem {
+  position: absolute;
+  left: 2rem;
+  top:  3rem;
+} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #5b7bb9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0d5350;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3a8eca;
+}
+
+.SubmitForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.membership-list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.membership-pice{
+  margin-bottom: 30px;
+}
+
+.member-name{
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #30c497;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.intro-pic img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+
+.pet-pic{
+  position: relative;
+  width: 70%;
+}
+
+.pet-pic img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pet-name{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #bd9165;
+}
+
+.pet-pic:hover .pet-name{
+  opacity: 1;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.adopting{
+  width: 100%;
+  background-color: #5aac8a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adopting:hover{
+  background-color:rgb(121, 197, 84);
+}
+
+.confirmation {
+  margin: 200px auto;
+  max-width: 600px;
+  padding: 20px;
+  height: 38.9vh;
+}
+
+.confirmation-label .notice-1{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.confirmation-label .button-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainmenu{
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.mainmenu:hover{
+  opacity: 0.8;
+}
+
+
+.SubmitForm .form-group {
+    margin-top: 15px;
+}
+
+.SubmitForm .form-group label {
+    display: block;
+    color: black;
+}
+
+.SubmitForm .form-group input {
+    width: 100%;
+    height: auto;
+    padding: 9px;
+    border: #ddd 1px solid;
+    border-radius: 6px;
+}
+
+
